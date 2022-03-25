@@ -36,3 +36,15 @@ thise is fast ewb
         inset -4px -4px 10px rgba(67, 67, 67, 0.3),
         4px 4px 10px rgba(0, 0, 0, 0.3);
 }
+
+
+.clock:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #747474;
+    border-radius: 50%;
+    z-index: 999;
+
+    
