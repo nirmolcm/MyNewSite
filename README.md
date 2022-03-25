@@ -48,7 +48,11 @@ thise is fast ewb
     z-index: 999;
 }
     
-
+.clock .hour,
+.clock .min,
+.clock .sec {
+    position: absolute;
+}
     
     
     
